@@ -6,7 +6,6 @@ import Results from "./../components/Results";
 export const dynamic = "force-dynamic"; // this is the fix
 
 
-"use client";
 export default async function Home({ searchParams }) {
   const likes = searchParams.likes || "fetchTrending";
 
