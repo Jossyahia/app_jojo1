@@ -5,6 +5,9 @@ import Results from "./../components/Results";
 
 export const dynamic = "force-dynamic"; // this is the fix
 
+export const metadata = {
+  title: "Welcome to Fastfast Delivery Service",
+};
 
 export default async function Home({ searchParams }) {
   const likes = searchParams.likes || "fetchTrending";
