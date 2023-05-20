@@ -1,8 +1,5 @@
+"use client"
 import Link from "next/link";
-
-export const metadata = {
-  title: "About Fastfast Delivery Service",
-};
 const AboutPage = () => {
   return (
     <div className="max-w-6xl mx-auto space-y-4 p-4">
