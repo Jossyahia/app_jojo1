@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import Link from "next/link";
 
 async function getMovie(_id) {
   const res = await fetch(
