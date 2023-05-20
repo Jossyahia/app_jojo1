@@ -2,7 +2,7 @@
 // for more info "https://github.com/vercel/next.js/issues/43077"
 import Results from "./../components/Results";
 
-//export const dynamic = "force-dynamic"; // this is the fix
+export const dynamic = "force-dynamic"; // this is the fix
 
 export const metadata = {
   title: "Welcome to Fastfast Delivery Service",
