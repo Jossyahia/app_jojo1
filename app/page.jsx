@@ -1,5 +1,4 @@
 // Fix the problem for "search params object is empty in production with next 13 app dir"
-"use client"
 // for more info "https://github.com/vercel/next.js/issues/43077"
 import Results from "./../components/Results";
 

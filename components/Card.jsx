@@ -18,7 +18,7 @@ export default function Card({ result }) {
           className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
           style={{
             maxWidth: "100%",
-            height: "auto",
+            height: "100%",
           }}
           placeholder="blur"
           blurDataURL="/spinner.svg"
