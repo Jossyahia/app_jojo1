@@ -1,9 +1,10 @@
 // Fix the problem for "search params object is empty in production with next 13 app dir"
 
 // for more info "https://github.com/vercel/next.js/issues/43077"
+"use client"
 import Results from "./../components/Results";
 
-export const dynamic = "force-dynamic"; // this is the fix
+//export const dynamic = "force-dynamic"; // this is the fix
 
 export const metadata = {
   title: "Welcome to Fastfast Delivery Service",
@@ -14,7 +15,6 @@ export default async function Home() {
   try {
     const res = await fetch(
       `https://victorious-teal-school-uniform.cyclic.app/api`,
-      { next: { revalidate: 60 } }
     );
     const data = await res.json();
     const results = data;
