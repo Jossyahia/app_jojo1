@@ -1,8 +1,10 @@
 // Fix the problem for "search params object is empty in production with next 13 app dir"
 // for more info "https://github.com/vercel/next.js/issues/43077"
+import Link from "next/link";
+
 import Results from "./../components/Results";
 
-export const dynamic = "force-dynamic"; // this is the fix
+//export const dynamic = "force-dynamic"; // this is the fix
 
 export const metadata = {
   title: "Welcome to Fastfast Delivery Service",
