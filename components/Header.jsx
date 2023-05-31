@@ -12,6 +12,8 @@ export default function Header() {
         <MenuItem title="ABOUT" address="/about" Icon={BsFillInfoCircleFill} />
       </div>
       <div className="flex items-center space-x-5">
+        <MenuItem title="BLOG" address="/blog" Icon={BsFillInfoCircleFill} />
+
         <DarkModeSwitch />
         <Link href="/">
           <h2 className="text-2xl">
