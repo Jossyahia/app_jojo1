@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 async function getMovie(_id) {
@@ -29,9 +31,13 @@ export default async function MoviePage({ params }) {
           alt="Product Image"
         ></Image>
         <div className="p-2">
-          <h2 className="text-lg mb-3 font-bold text-amber-600">{result.title}</h2>
+          <h2 className="text-lg mb-3 font-bold text-amber-600">
+            {result.title}
+          </h2>
           <p className="text-lg mb-3">
-            <span className="font-semibold mr-1 text-amber-600">Product Description:</span>
+            <span className="font-semibold mr-1 text-amber-600">
+              Product Description:
+            </span>
             {result.description}
           </p>
           <p className="mb-3">
